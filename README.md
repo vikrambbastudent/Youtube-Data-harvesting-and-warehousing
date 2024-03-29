@@ -9,7 +9,7 @@ The code provided is a Python script that uses various libraries and APIs to fet
 
 Here's a breakdown of what the code does:
 
-Imports necessary libraries, including googleapiclient for interacting with the YouTube API, pymongo for working with MongoDB, psycopg2 for connecting to a PostgreSQL database, re for RegEx operations and streamlit for creating the user interface.
+Imports necessary libraries, including googleapiclient for interacting with the YouTube API, pymongo for working with MongoDB, psycopg2 for connecting to a PostgreSQL database and streamlit for creating the user interface.
 Connects to MongoDB using the provided connection string and sets the database to "youtube_data".
 Sets the YouTube API key for making requests to the YouTube API.
 Connects to a PostgreSQL database using the provided credentials.
