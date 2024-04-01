@@ -21,3 +21,9 @@ Defines a Streamlit application function main that sets up the user interface us
 The main function uses Streamlit components to create input fields, buttons, and dropdowns for user interaction. It calls the get_channel_data function to fetch channel data from YouTube and displays it as JSON. It also calls the migrate_data_to_mongodb and migrate_data_to_sql functions when the corresponding buttons are clicked, using the selected channel IDs from the dropdowns.
 The script sets the Streamlit page layout, sets the Streamlit app title, and calls the main function to run the application.
 Overall, this script provides a way to fetch YouTube channel data, store it in MongoDB, and migrate it to a PostgreSQL database using a Streamlit application for user interaction.
+Skills Take Away:
+Google Api connection
+Python Scripting
+MongoDB
+SQL
+Streamlit
